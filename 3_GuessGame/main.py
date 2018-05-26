@@ -10,7 +10,7 @@ while flaga ==False:
     liczbaProb+=1
 
     if zgaduj==liczbaDoZgadniecia:
-        flaga ==True
+        flaga =True
         print("Gratulacje, zgadłeś. Poszukiwana liczba to: ", liczbaDoZgadniecia, "Udało się po tylu próbach: ", liczbaProb)
     else:
         if zgaduj>liczbaDoZgadniecia:
